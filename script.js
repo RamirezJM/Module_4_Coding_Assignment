@@ -42,12 +42,14 @@ import { SpeakGoodBye } from "./SpeakGoodBye.js";
   let names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   for(let i = 0; i < names.length; i++){
     if(names[i].toLowerCase().charAt(0) !== 'j'){
-      let hello = helloSpeaker(names[i])
-      list.innerHTML += `<p>${hello}</p>`
+      //let hello = 
+      helloSpeaker(names[i])
+      /* list.innerHTML += `<p>${hello}</p>` */
     }
     else{
-      let bye = SpeakGoodBye(names[i])
-      list.innerHTML += `<p>${bye}</p>`
+      //let bye = 
+      SpeakGoodBye(names[i])
+      //list.innerHTML += `<p>${bye}</p>`
     }
   }
 })()
